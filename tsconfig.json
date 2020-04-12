@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tutorial/footer-lib": ["libs/footer-lib/src/index.ts"],
+      "@tutorial/footer-svelte": ["libs/footer-svelte/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

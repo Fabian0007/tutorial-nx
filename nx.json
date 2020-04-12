@@ -18,5 +18,19 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "angularapp": {
+      "tags": []
+    },
+    "angularapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angularapp"]
+    },
+    "footer-lib": {
+      "tags": []
+    },
+    "footer-svelte": {
+      "tags": []
+    }
+  }
 }
