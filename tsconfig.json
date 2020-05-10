@@ -17,7 +17,9 @@
     "baseUrl": ".",
     "paths": {
       "@tutorial/footer-lib": ["libs/footer-lib/src/index.ts"],
-      "@tutorial/footer-svelte": ["libs/footer-svelte/src/index.ts"]
+      "@tutorial/footer-svelte": ["libs/footer-svelte/src/index.ts"],
+      "@tutorial/header-lib": ["libs/header-lib/src/index.ts"],
+      "@tutorial/header-fast-lib": ["libs/header-fast-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

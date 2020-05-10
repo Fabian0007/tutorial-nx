@@ -171,6 +171,62 @@
           }
         }
       }
+    },
+    "header-lib": {
+      "root": "libs/header-lib",
+      "sourceRoot": "libs/header-lib/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/header-lib/.eslintrc",
+            "tsConfig": [
+              "libs/header-lib/tsconfig.lib.json",
+              "libs/header-lib/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/header-lib/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/header-lib/jest.config.js",
+            "tsConfig": "libs/header-lib/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "header-fast-lib": {
+      "root": "libs/header-fast-lib",
+      "sourceRoot": "libs/header-fast-lib/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/header-fast-lib/.eslintrc",
+            "tsConfig": [
+              "libs/header-fast-lib/tsconfig.lib.json",
+              "libs/header-fast-lib/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/header-fast-lib/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/header-fast-lib/jest.config.js",
+            "tsConfig": "libs/header-fast-lib/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

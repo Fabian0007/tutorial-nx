@@ -31,6 +31,12 @@
     },
     "footer-svelte": {
       "tags": []
+    },
+    "header-lib": {
+      "tags": []
+    },
+    "header-fast-lib": {
+      "tags": []
     }
   }
 }

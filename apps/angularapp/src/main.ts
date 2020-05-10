@@ -1,4 +1,5 @@
 import '@tutorial/footer-lib';
+import '@tutorial/header-fast-lib';
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
