@@ -1,3 +1,4 @@
+
 # Working with Nx.dev using React, Angular and native web components
 Find me on Twitter as [@Fabian0007](https://twitter.com/Fabian0007)
 
@@ -110,8 +111,9 @@ If you get the error “Cannot find module
 
     npm i
 
-![](https://cdn-images-1.medium.com/max/800/1*osCUaQBzoJjXN5JaDo69GA.png)
-<span class="figcaption_hack">Expected result</span>
+|![](https://cdn-images-1.medium.com/max/800/1*osCUaQBzoJjXN5JaDo69GA.png)|
+|:--:| 
+| Expected result |
 
 **You can see that the style defined in app.component.css does not affect the
 footer-lib style**. This occurs because Angular by default uses encapsulation
@@ -140,8 +142,9 @@ for components. For deactivate this, you must add the code marked in bold to app
 
 Now footer-lib will be centered because it uses h1 label.
 
-![](https://cdn-images-1.medium.com/max/800/1*ojy9CESPgcVQUCY0nFgB-Q.png)
-<span class="figcaption_hack">Expected result</span>
+|![](https://cdn-images-1.medium.com/max/800/1*ojy9CESPgcVQUCY0nFgB-Q.png)|
+|:--:| 
+| Expected result |
 
 **What if you want to pass a parameter to the web component?** you can use
 observedAttributes and attributeChangedCallback provided by HTMLElement, replace
@@ -213,8 +216,9 @@ Go to /libs/footer-lib /src/lib/footer-lib.ts and we must replace it with:
 **Now again, you can see that the style defined in app.component.css does not
 affect the footer-lib style because it uses shadow DOM**.
 
-![](https://cdn-images-1.medium.com/max/800/1*k_amzYtgdXrpdJU0A0T8fw.png)
-<span class="figcaption_hack">Expected</span>
+| ![](https://cdn-images-1.medium.com/max/800/1*k_amzYtgdXrpdJU0A0T8fw.png)|
+|:--:| 
+| Expected result |
 
 ### Using HTML templates
 
@@ -283,8 +287,9 @@ Then go to /apps/angularapp/src/app/app.component.ts and you must add the code m
 
     }
 
-![](https://cdn-images-1.medium.com/max/800/1*7cFSklTrXoUPLPjTJ71Abw.png)
-<span class="figcaption_hack">Expected result</span>
+| ![](https://cdn-images-1.medium.com/max/800/1*7cFSklTrXoUPLPjTJ71Abw.png) |
+|:--:| 
+| Expected result |
 
 In the next part we will see the inclusion of a React library to the Angular
 application. See you soon.
