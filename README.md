@@ -2,8 +2,6 @@
 # Working with Nx.dev using React, Angular and native web components
 Find me on Twitter as [@Fabian0007](https://twitter.com/Fabian0007)
 
-### Angular App and web components libraries— Part #1 of 9
-
 In this first part of the tutorial, we will start with an Angular application
 that uses web component libraries, we will delve a little into what web
 components are and the peculiarities of Angular when working with them.
